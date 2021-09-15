@@ -1,0 +1,333 @@
+@font-face {
+    font-family: Roboto-Bold; 
+    src: url('../fonts/Roboto-Bold.ttf');
+}
+@font-face {
+    font-family: Roboto-Light;
+    src: url('../fonts/Roboto-Light.ttf');
+}
+@font-face {
+    font-family: Roboto-Regular;
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    color: #343434;
+    font-family: Roboto-Regular;
+}
+
+/* The first section */
+
+#first {
+    display: flex;
+    flex-direction: column;
+    height: 850px;
+    background: url(../images/Background.png) no-repeat;
+}
+
+#first ul {
+    display: flex;
+    padding-top: 30px;
+    font-family: Roboto-Bold;
+}
+
+#first ul li {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+#logo {
+    font-family: Roboto-Light;
+    font-size: 25px;
+    color: #747474;
+    margin-left: 344px;
+}
+
+#logo h3 {
+    font-family: Roboto-Regular; 
+    font-size: 45px;  
+    letter-spacing: 7px; 
+    line-height: 37px;
+}
+
+ul#link__first {
+    display: flex;
+    justify-content: center; 
+    margin-top: 84px;
+}
+
+ul#link__first li{
+    align-self: center;
+    padding: 10px 27px;
+    letter-spacing: 0;
+
+}
+/*ul#link__first li a:hover{
+    text-decoration: underline;
+}*/ 
+#first h1 {
+    width: 515px;
+    height: 180px;
+    font-family: Roboto-Bold;
+    font-size: 80px;
+    text-align:center;
+    margin: 20px auto 0 auto;   
+}
+
+#first button {
+    width: 240px;
+    height: 58px;
+    margin: 70px auto 0 auto;
+    background-color: #FABAA0;
+    font-family: Roboto-Bold;
+    font-size: 14px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Table */
+
+#table {
+    display: flex;
+    justify-content: center;
+    width: 950px;
+    font-family: Roboto-Regular;
+    background-color: #708D92;
+    color: #fff;
+    padding: 20px;
+    margin: 0px auto;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+#table > div, #table >  p {
+    border: #fff solid 1px;
+    border-right: 0;
+}
+#table #impact h3 {
+    font-size: 24px;
+    margin-top: 35px;
+}
+#table #impact p{
+    margin: 25px 75px 30px 74.98px;
+}
+#table p {
+    font-size: 12px;
+}
+#table h1 {
+    font-size: 45px;
+    margin: 41px 33px 5px 33px;
+}
+
+/* The Second section*/
+/*
+#
+2006 Наталья Гордиенко веночек из васильков 
+1 место
+Туз Бубен
+Киркоров*/
+
+/*#second {
+  display: flex;  
+}*/
+
+#second h5 {
+    font-family: Roboto-Regular;
+    font-size: 12px;
+    color: #747474;
+    letter-spacing: 2px;
+    margin-top: 92px;
+    text-align: center;
+}
+h2 {
+    font-family: Roboto-Bold;
+    font-size: 45px;
+    color: #343434;
+    margin-top: 18px;
+    text-align: center;
+}
+#second ul {
+    display: flex;
+    margin: 0 79px;
+}
+#second ul li {
+    font-family: Roboto-Regular;
+    font-size: 12px;
+    color: #747474;
+    text-align: center;
+    margin: 53px;
+}
+#second h3 {
+    font-family: Roboto-Bold;
+    font-size: 24px;
+    color: #343434;
+    text-align: center;
+    margin: 10px 0 12px 0; 
+}
+
+/* The third section */
+
+#third {
+    /* height: 912px; */
+    background-color: #F7F5F2;
+}
+#third h2 {
+    padding-top: 73px;
+    margin-bottom: 100px;
+}
+ul.categories {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+ul.categories li {
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    padding: 15px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+ul.categories li p {
+    margin-left: 10px;
+}
+
+ul.third-gallery {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /* left: -233px; */
+}
+
+li.third-gallery-item {
+    width: 350px;
+    padding: 0 0 50px 29px;
+}
+li.third-gallery-item hr{
+    color: #343434;
+    opacity: 55%;
+    margin: 9px 0;
+}
+li .gallery-item-title {
+    margin: 14px 0 11px 0;  
+}
+.gallery-item-title h4 {
+    font-size: 12px;
+    line-height: 14px;
+    color: #747474;
+    margin-bottom: 3px;
+}
+.gallery-item-title h3 {
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.5px;
+}
+li .gallery-item-underline {
+    display: flex;
+    justify-content: space-between;
+}
+.gallery-item-underline h4 {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1.5px;
+}
+.gallery-item-underline h5 {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    line-height: 11px;
+    letter-spacing: 2px;
+    background-color:#FBDCC5;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+
+/* The forth section */
+
+.forth h2 {
+    margin-top: 73px;
+    margin-bottom: 34px;
+    background: #fff;
+}
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px 0;
+}
+.reverse {
+    background: #F7F5F2;
+    flex-direction: row-reverse;
+}
+.card-info {
+    align-self: center;
+}
+.card-info h4{
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: #FBDCC5;
+    width: 97px;
+    padding: 5px;
+    border-radius: 3px;
+}
+.card-info h3 {
+    font-family: Roboto-Bold;
+    font-size: 30px;
+    line-height: 30px;
+    margin: 11px 0 14px 0;
+    width: 304px;
+}
+.reverse h3 {
+    width: 345px;
+}
+.card-info p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #747474;
+    margin-bottom: 31px;
+}
+button.button-red {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: #DE470D;
+    /* background: white; */
+    background:inherit;
+    border: none;
+    cursor: pointer;
+}
+
+/* Gallery */
+
+.gallery {
+    background: #F7F5F2;
+    padding-top: 83px;
+}
+.gallery h2 {
+    margin-top: 0px;
+    margin-bottom: 97px;
+}
+.gallery-images {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 2em;
+    padding-bottom: 90px;
+}
